@@ -1,0 +1,16 @@
+@media screen and (max-width: 992px) {
+    #icon-camera {
+        display: flex;
+        justify-content: center;
+    }
+    .custom-active::after {
+        content: "";
+        position: absolute;
+        background-color: #FFBA08;
+        height: 1px;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+    }
+}
